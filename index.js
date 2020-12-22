@@ -21,7 +21,7 @@ const startupMessage = `
 [0m
 `
 
-app.get('/', (req, res) => res.send('Hello World?'))
+app.get('/', (req, res) => res.send('will i see this?'))
 app.get('/test', (req, res) => res.send('this is test page!'))
 
 for (let line of startupMessage.split("\n")) {
